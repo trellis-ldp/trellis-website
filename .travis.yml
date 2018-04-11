@@ -1,9 +1,12 @@
-language: java
-jdk:
-    - oraclejdk8
-
-install:
-    - pip install --user html5validator
+language: python
+python:
+    - "2.7"
+    - "3.4"
+before_script:
+    - flake8 scripts
+    - sudo apt-get update
+    - sudo apt-get install oracle-java8-installer
+    - sudo update-java-alternatives -s java-8-oracle
 
 script:
     - html5validator

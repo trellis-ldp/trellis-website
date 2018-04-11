@@ -40,6 +40,7 @@ if __name__ == '__main__':
 
     uploader.upload("index.html", "text/html")
     uploader.upload("download.html", "text/html")
+    uploader.upload("doap.ttl", "text/turtle")
     uploader.upload("css/trellis.css", "text/css")
     uploader.upload("img/trellis.png", "image/png")
     uploader.upload("img/trellis_white.png", "image/png")

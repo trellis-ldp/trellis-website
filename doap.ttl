@@ -16,8 +16,8 @@
         [ a doap:GitRepository ;
             doap:location <https://github.com/trellis-ldp/trellis-rosid.git> ;
             doap:browse <https://github.com/trellis-ldp/trellis-rosid> ] ;
-    doap:maintainer <https://acoburn.people.amherst.edu/#i> ;
-    doap:developer <https://acoburn.people.amherst.edu/#i> ;
+    doap:maintainer <https://people.apache.org/~acoburn/#i> ;
+    doap:developer <https://people.apache.org/~acoburn/#i> ;
     doap:implements
         [ a doap:Specification ;
             doap:name "Linked Data Platform"@en ;
@@ -29,6 +29,11 @@
             doap:description "W3C Activity Streams 2.0"@en ;
             dc:identifier "as" ;
             rdfs:seeAlso <https://www.w3.org/TR/activitystreams-core/> ] ,
+        [ a doap:Specification ;
+            doap:name "WebSub"@en ;
+            doap:description "W3C WebSub Publisher"@en ;
+            dc:identifier "websub" ;
+            rdfs:seeAlso <https://www.w3.org/TR/websub/> ] ,
         [ a doap:Specification ;
             doap:name "Memento"@en ;
             doap:description "RFC 7089: HTTP Framework for Time-Based Access to Resource States"@en ;

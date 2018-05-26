@@ -12,10 +12,7 @@
     doap:repository
         [ a doap:GitRepository ;
             doap:location <https://github.com/trellis-ldp/trellis.git> ;
-            doap:browse <https://github.com/trellis-ldp/trellis> ] ,
-        [ a doap:GitRepository ;
-            doap:location <https://github.com/trellis-ldp/trellis-rosid.git> ;
-            doap:browse <https://github.com/trellis-ldp/trellis-rosid> ] ;
+            doap:browse <https://github.com/trellis-ldp/trellis> ] ;
     doap:maintainer <https://people.apache.org/~acoburn/#i> ;
     doap:developer <https://people.apache.org/~acoburn/#i> ;
     doap:implements

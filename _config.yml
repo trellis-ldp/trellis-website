@@ -1,0 +1,24 @@
+title: Trellis Linked Data Server
+description: A scalable platform for building linked data applications.
+baseurl: "/"
+url: "https://www.trellisldp.org"
+twitter_username: trellisldp
+github_username:  trellis-ldp
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+exclude:
+   - Gemfile
+   - Gemfile.lock
+   - node_modules
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
+   - requirements.txt
+   - LICENSE
+   - scripts/
+   - README.md

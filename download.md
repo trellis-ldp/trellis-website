@@ -21,7 +21,7 @@ For RedHat-based systems, install Trellis with these commands:
 Size: 42.1 MB  
 [SHA-256](https://www.trellisldp.org/downloads/trellis-0.7.0-1.noarch.rpm.sha256): 5833df6f7a216e2f0f3e1bbc3a6ad2e0d0f39e8003620fd0b74d219dfebb1df5
 
-## Ubuntu 15+ / Debian 8+
+## Ubuntu 16.04 LTS / Debian 8+
 
 For Debian-based systems, install Trellis with these commands:
 
@@ -34,7 +34,8 @@ Size: 42.1 MB
 
 ## Other Platforms
 
-Trellis can be run on any system with Java 8 or higher. To install Trellis
+Trellis can be run on any system with Java 8 or higher, and it is regularly
+tested on Windows, Mac OS and generic Linux machines. To install Trellis
 manually, download the software as a Zip or Tar archive and follow the
 [manual installation instructions](https://github.com/trellis-ldp/trellis/wiki/Manual-Installation).
 

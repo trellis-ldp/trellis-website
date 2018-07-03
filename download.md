@@ -7,7 +7,7 @@ permalink: /download.html
 Trellis is an enterprise-ready Linked Data server that makes it possible to build and publish linked data applications on the Web.
 Installing Trellis is simple and straight-forward.
 
-The [current version](https://github.com/trellis-ldp/trellis/releases/latest) is 0.7, released on May 25, 2018.
+The [current version](https://github.com/trellis-ldp/trellis/releases/latest) is 0.7.1, released on July 2, 2018.
 
 _Prerequisites_: before installing Trellis, be sure to have a Java 8 (or newer) runtime installed.
 
@@ -15,11 +15,11 @@ _Prerequisites_: before installing Trellis, be sure to have a Java 8 (or newer) 
 
 For RedHat-based systems, install Trellis with these commands:
 
-    $ wget https://www.trellisldp.org/downloads/trellis-0.7.0-1.noarch.rpm
-    $ sudo yum install trellis-0.7.0-1.noarch.rpm
+    $ wget https://www.trellisldp.org/downloads/trellis-0.7.1-1.noarch.rpm
+    $ sudo yum install trellis-0.7.1-1.noarch.rpm
 
-Size: 42.1 MB  
-[SHA-256](https://www.trellisldp.org/downloads/trellis-0.7.0-1.noarch.rpm.sha256): 5833df6f7a216e2f0f3e1bbc3a6ad2e0d0f39e8003620fd0b74d219dfebb1df5
+Size: 35.7 MB  
+[SHA-256](https://www.trellisldp.org/downloads/trellis-0.7.1-1.noarch.rpm.sha256): be483252525c125d414958a58a46041b2911c323a617e5b5af6ca6643e1212cf
 
 ## Ubuntu 16.04 LTS / Debian 8+
 
@@ -29,8 +29,8 @@ For Debian-based systems, install Trellis with these commands:
     $ wget https://www.trellisldp.org/downloads/trellis_0.7.0-1_all.deb
     $ sudo gdebi trellis_0.7.0-1_all.deb
 
-Size: 42.1 MB  
-[SHA-256](https://www.trellisldp.org/downloads/trellis_0.7.0-1_all.deb.sha256): a86c6022982a78248035ac3134a3c7df03c57a644887dbbb3d2ea995f3b2a251
+Size: 35.7 MB  
+[SHA-256](https://www.trellisldp.org/downloads/trellis_0.7.1-1_all.deb.sha256): 4fc1a0b5f2643de55601d36918defc45d2810852c65a04225b65fe0e72413913
 
 ## Other Platforms
 
@@ -39,13 +39,13 @@ tested on Windows, Mac OS and generic Linux machines. To install Trellis
 manually, download the software as a Zip or Tar archive and follow the
 [manual installation instructions](https://github.com/trellis-ldp/trellis/wiki/Manual-Installation).
 
-[trellis-0.7.0.zip](https://www.trellisldp.org/downloads/trellis-0.7.0.zip)
-(Size: 42.2 MB)  
-[SHA-256](https://www.trellisldp.org/downloads/trellis-0.7.0.zip.sha256): 3ee85c62e26c496dc9dca946ae97ae620fac6183c3b1bb0203ec8c4797aac169
+[trellis-0.7.1.zip](https://www.trellisldp.org/downloads/trellis-0.7.1.zip)
+(Size: 35.7 MB)  
+[SHA-256](https://www.trellisldp.org/downloads/trellis-0.7.1.zip.sha256): 508030b2df50ae1611d7db26de24631a377620309446194d7af1356f4fad17d1
 
-[trellis-0.7.0.tar](https://www.trellisldp.org/downloads/trellis-0.7.0.tar)
-(Size: 47.5 MB)  
-[SHA-256](https://www.trellisldp.org/downloads/trellis-0.7.0.tar.sha256): 5b6d46f67a3d1622136dc2dd113c7a693d0b1ba6e630ebf31161f47c2cbea1d1
+[trellis-0.7.1.tar](https://www.trellisldp.org/downloads/trellis-0.7.1.tar)
+(Size: 40.2 MB)  
+[SHA-256](https://www.trellisldp.org/downloads/trellis-0.7.1.tar.sha256): 88d60e334a6afbc94a7aecccbcbc39e50d833482c70c3ffdb7eeb69dd3abc1a6
 
 ## Next Steps
 

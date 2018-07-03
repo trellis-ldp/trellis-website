@@ -26,8 +26,8 @@ Size: 35.7 MB
 For Debian-based systems, install Trellis with these commands:
 
     $ sudo apt-get install gdebi-core
-    $ wget https://www.trellisldp.org/downloads/trellis_0.7.0-1_all.deb
-    $ sudo gdebi trellis_0.7.0-1_all.deb
+    $ wget https://www.trellisldp.org/downloads/trellis_0.7.1-1_all.deb
+    $ sudo gdebi trellis_0.7.1-1_all.deb
 
 Size: 35.7 MB  
 [SHA-256](https://www.trellisldp.org/downloads/trellis_0.7.1-1_all.deb.sha256): 4fc1a0b5f2643de55601d36918defc45d2810852c65a04225b65fe0e72413913

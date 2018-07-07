@@ -53,20 +53,21 @@ if __name__ == '__main__':
     uploader.upload("assets/trellis.css", "text/css")
     uploader.upload("assets/trellis.png", "image/png")
     uploader.upload("doap.ttl", "text/turtle")
-    uploader.upload("webfonts/fa-brands-400.eot", "application/vnd.ms-fontobject")
+    uploader.upload("webfonts/fa-brands-400.eot",
+                    "application/vnd.ms-fontobject")
     uploader.upload("webfonts/fa-brands-400.svg", "application/svg+xml")
     uploader.upload("webfonts/fa-brands-400.ttf", "application/x-font-ttf")
     uploader.upload("webfonts/fa-brands-400.woff", "application/font-woff")
     uploader.upload("webfonts/fa-brands-400.woff2", "application/font-woff2")
-    uploader.upload("webfonts/fa-regular-400.eot", "application/vnd.ms-fontobject")
+    uploader.upload("webfonts/fa-regular-400.eot",
+                    "application/vnd.ms-fontobject")
     uploader.upload("webfonts/fa-regular-400.svg", "application/svg+xml")
     uploader.upload("webfonts/fa-regular-400.ttf", "application/x-font-ttf")
     uploader.upload("webfonts/fa-regular-400.woff", "application/font-woff")
     uploader.upload("webfonts/fa-regular-400.woff2", "application/font-woff2")
-    uploader.upload("webfonts/fa-solid-900.eot", "application/vnd.ms-fontobject")
+    uploader.upload("webfonts/fa-solid-900.eot",
+                    "application/vnd.ms-fontobject")
     uploader.upload("webfonts/fa-solid-900.svg", "application/svg+xml")
     uploader.upload("webfonts/fa-solid-900.ttf", "application/x-font-ttf")
     uploader.upload("webfonts/fa-solid-900.woff", "application/font-woff")
     uploader.upload("webfonts/fa-solid-900.woff2", "application/font-woff2")
-
-

@@ -42,9 +42,10 @@ if __name__ == '__main__':
     uploader = Uploader(bucket=args.bucket, site=args.site,
                         profile=args.profile)
 
-    uploader.upload("index.html", "text/html")
-    uploader.upload("about.html", "text/html")
-    uploader.upload("download.html", "text/html")
+    uploader.upload("index.html", "text/html; charset=utf-8")
+    uploader.upload("about.html", "text/html; charset=utf-8")
+    uploader.upload("download.html", "text/html; charset=utf-8")
+    uploader.upload("404.html", "text/html; charset=utf-8")
     uploader.upload("feed.xml", "application/xml")
 
     uploader.upload("assets/main.css", "text/css")
@@ -52,7 +53,7 @@ if __name__ == '__main__':
     uploader.upload("assets/minima-social-icons.svg", "image/svg+xml")
     uploader.upload("assets/trellis.css", "text/css")
     uploader.upload("assets/trellis.png", "image/png")
-    uploader.upload("doap.ttl", "text/turtle")
+    uploader.upload("doap.ttl", "text/turtle; charset=utf-8")
     uploader.upload("webfonts/fa-brands-400.eot",
                     "application/vnd.ms-fontobject")
     uploader.upload("webfonts/fa-brands-400.svg", "application/svg+xml")

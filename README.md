@@ -1,4 +1,4 @@
-# trellis-website
+# TrellisLDP.org website
 
 A website for trellisldp.org, using [Jekyll](https://jekyllrb.com/docs/home/) as a static site generator.
 

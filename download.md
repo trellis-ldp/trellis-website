@@ -25,7 +25,7 @@ For RedHat-based systems, install Trellis (triplestore) with these commands:
     $ wget https://www.trellisldp.org/downloads/trellis/trellis-0.7.3-1.noarch.rpm
     $ sudo yum install trellis-0.7.3-1.noarch.rpm
 
-Size: 35.7 MB  
+Size: 35.8 MB  
 [SHA-256](https://www.trellisldp.org/downloads/trellis/trellis-0.7.3-1.noarch.rpm.sha256): 602eeb5cdead8935f492a69497f98c359b8a20ceeb791a88a82b46a84bc69873
 
 ### Ubuntu 16.04 LTS / Debian 8+
@@ -36,7 +36,7 @@ For Debian-based systems, install Trellis (triplestore) with these commands:
     $ wget https://www.trellisldp.org/downloads/trellis/trellis_0.7.3-1_all.deb
     $ sudo gdebi trellis_0.7.3-1_all.deb
 
-Size: 35.7 MB  
+Size: 35.8 MB  
 [SHA-256](https://www.trellisldp.org/downloads/trellis/trellis_0.7.3-1_all.deb.sha256): 00cdcb7e420a0e6eb18868884f2b19eefc3cfba2a69c44b94c294001f1d37173
 
 ---
@@ -77,11 +77,11 @@ manually, download the software as a Zip or Tar archive and follow the
 ### Triplestore-based packages
 
 [trellis-0.7.3.zip](https://www.trellisldp.org/downloads/trellis/trellis-0.7.3.zip)
-(Size: 35.7 MB)  
+(Size: 35.8 MB)  
 [SHA-256](https://www.trellisldp.org/downloads/trellis/trellis-0.7.3.zip.sha256): 78e7770179005e17a82de5aced94789428d9eeb50af46ed88a50c2c8739cb5a9
 
 [trellis-0.7.3.tar](https://www.trellisldp.org/downloads/trellis/trellis-0.7.3.tar)
-(Size: 40.2 MB)  
+(Size: 40.3 MB)  
 [SHA-256](https://www.trellisldp.org/downloads/trellis/trellis-0.7.3.tar.sha256): 45cba33f39e907daa1c1984dc82cea5736e70474e31fde1848d020f7044759eb
 
 ### Relational database packages

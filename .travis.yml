@@ -1,17 +1,13 @@
-language: python
-python:
-    - "2.7"
-    - "3.6"
-before_install:
-    - gem install bundler jekyll
-before_script:
-    - flake8 scripts
-    - bundle install
-    - sudo apt-get update
-    - sudo apt-get install oracle-java8-installer
-    - sudo update-java-alternatives -s java-8-oracle
+language: ruby
+rvm:
+  - 2.4.1
 
-script:
-    - bundle exec jekyll build
-    - html5validator _site/*.html
+install: gem install jekyll html-proofer
+script: bundle exec jekyll build && htmlproofer ./_site
+
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+cache: bundler
 

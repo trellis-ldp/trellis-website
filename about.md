@@ -33,7 +33,7 @@ Information about specific features can be found on the
 [project Wiki](https://github.com/trellis-ldp/trellis/wiki).
 
 Developers interested in contributing or extending Trellis may find the
-[JavaDocs](https://trellis-ldp.github.io/trellis/apidocs) useful.
+[JavaDocs](https://www.trellisldp.org/docs/trellis/current/apidocs/) useful.
 
 ## Semantic Web
 

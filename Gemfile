@@ -2,12 +2,12 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 3.8.4"
 gem "minima", "~> 2.5"
-gem "html-proofer"
-gem "jekyll-sitemap"
+gem "html-proofer", "~> 3.9"
 
 # If you have any plugins, put them here
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-feed", "~> 0.11"
+  gem "jekyll-sitemap", "~> 1.2"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

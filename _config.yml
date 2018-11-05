@@ -9,6 +9,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 exclude:
    - Gemfile
@@ -18,7 +19,5 @@ exclude:
    - vendor/cache/
    - vendor/gems/
    - vendor/ruby/
-   - requirements.txt
    - LICENSE
-   - scripts/
    - README.md

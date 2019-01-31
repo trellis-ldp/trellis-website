@@ -14,6 +14,19 @@ There are two flavors of Trellis available. One makes use of a [Triplestore](htt
 
 _Prerequisites_: before installing Trellis, be sure to have a Java 8 (or newer) runtime installed.
 
+## Docker containers
+
+Trellis is available as a container from Docker Hub and can be retrieved (for the triplestore
+version):
+
+    $ docker pull trellisldp/trellis
+
+or, for the relational database version:
+
+    $ docker pull trellisldp/trellis-ext-db
+
+All of the Trellis docker containers are available from [Docker Hub](https://hub.docker.com/u/trellisldp).
+
 ---
 
 ## Triplestore persistence

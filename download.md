@@ -9,8 +9,8 @@ Installing Trellis is simple and straight-forward.
 
 There are two flavors of Trellis available. One makes use of a [Triplestore](https://en.wikipedia.org/wiki/Triplestore), and another uses a relational database such as PostgreSQL or MySQL.
 
-  * The current [triplestore-based version](https://github.com/trellis-ldp/trellis/releases/latest) is 0.7.3, released on September 11, 2018.
-  * The current [relational database version](https://github.com/trellis-ldp/trellis-ext-db/releases/latest) is 0.1.1, released on August 17, 2018.
+  * The current [triplestore-based version](https://github.com/trellis-ldp/trellis/releases/latest) is 0.8.0, released on January 31, 2019.
+  * The current [relational database version](https://github.com/trellis-ldp/trellis-ext-db/releases/latest) is 0.2.0, released on January 31, 2019.
 
 _Prerequisites_: before installing Trellis, be sure to have a Java 8 (or newer) runtime installed.
 
@@ -22,22 +22,22 @@ _Prerequisites_: before installing Trellis, be sure to have a Java 8 (or newer) 
 
 For RedHat-based systems, install Trellis (triplestore) with these commands:
 
-    $ wget https://www.trellisldp.org/downloads/trellis/trellis-0.7.3-1.noarch.rpm
-    $ sudo yum install trellis-0.7.3-1.noarch.rpm
+    $ wget https://www.trellisldp.org/downloads/trellis/trellis-0.8.0-1.noarch.rpm
+    $ sudo yum install trellis-0.8.0-1.noarch.rpm
 
-Size: 35.8 MB  
-[SHA-256](https://www.trellisldp.org/downloads/trellis/trellis-0.7.3-1.noarch.rpm.sha256): 602eeb5cdead8935f492a69497f98c359b8a20ceeb791a88a82b46a84bc69873
+Size: 31.3 MB  
+[SHA-256](https://www.trellisldp.org/downloads/trellis/trellis-0.8.0-1.noarch.rpm.sha256): 5340bc0ec30a29a502cf87499cc6d28a1592ffe23647ff79e96e0a9c9437c7e8
 
 ### Ubuntu 16.04 LTS / Debian 8+
 
 For Debian-based systems, install Trellis (triplestore) with these commands:
 
     $ sudo apt-get install gdebi-core
-    $ wget https://www.trellisldp.org/downloads/trellis/trellis_0.7.3-1_all.deb
-    $ sudo gdebi trellis_0.7.3-1_all.deb
+    $ wget https://www.trellisldp.org/downloads/trellis/trellis_0.8.0-1_all.deb
+    $ sudo gdebi trellis_0.8.0-1_all.deb
 
-Size: 35.8 MB  
-[SHA-256](https://www.trellisldp.org/downloads/trellis/trellis_0.7.3-1_all.deb.sha256): 00cdcb7e420a0e6eb18868884f2b19eefc3cfba2a69c44b94c294001f1d37173
+Size: 31.4 MB  
+[SHA-256](https://www.trellisldp.org/downloads/trellis/trellis_0.8.0-1_all.deb.sha256): 1a3b2c8574f7ce77676dfb7ba9902ee9e6df1499dc3af67b0d3e97df10645dca
 
 ---
 
@@ -47,11 +47,11 @@ Size: 35.8 MB
 
 For RedHad-based systems, the relational database version of Trellis can be installed with these commands:
 
-    $ wget https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db-0.1.1-1.noarch.rpm
-    $ sudo yum install trellis-db-0.1.1-1.noarch.rpm
+    $ wget https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db-0.2.0-1.noarch.rpm
+    $ sudo yum install trellis-db-0.2.0-1.noarch.rpm
 
-Size: 40.7 MB  
-[SHA-256](https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db-0.1.1-1.noarch.rpm.sha256): d348081ca27bbc7ae3a43d03d1ddf27f9c995643009df282606ccc202c67ee27
+Size: 42.0 MB  
+[SHA-256](https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db-0.2.0-1.noarch.rpm.sha256): 187a7dafaa0a26e4802b49f87118fb61b46ef080a3a51772cbc35235a3eab718
 
 
 ### Ubuntu 16.04 LTS / Debian 8+
@@ -59,11 +59,11 @@ Size: 40.7 MB
 The relational database version can be installed with these commands:
 
     $ sudo apt-get install gdebi-core
-    $ wget https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db_0.1.1-1_all.deb
-    $ sudo gdebi trellis-db_0.1.1-1_all.deb
+    $ wget https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db_0.2.0-1_all.deb
+    $ sudo gdebi trellis-db_0.2.0-1_all.deb
 
-Size: 40.7 MB  
-[SHA-256](https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db_0.1.1-1_all.deb.sha256): 940a69dd1d7c31dbf96b1e969240c30652de3c204e6fd8553caec39e6006e934
+Size: 42.0 MB  
+[SHA-256](https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db_0.2.0-1_all.deb.sha256): 16114f666564fa63a52d3dca1ab949699aaaf41684e31653c01d524737ece23c
 
 ---
 
@@ -76,23 +76,23 @@ manually, download the software as a Zip or Tar archive and follow the
 
 ### Triplestore-based packages
 
-[trellis-0.7.3.zip](https://www.trellisldp.org/downloads/trellis/trellis-0.7.3.zip)
-(Size: 35.8 MB)  
-[SHA-256](https://www.trellisldp.org/downloads/trellis/trellis-0.7.3.zip.sha256): 78e7770179005e17a82de5aced94789428d9eeb50af46ed88a50c2c8739cb5a9
+[trellis-0.8.0.zip](https://www.trellisldp.org/downloads/trellis/trellis-0.8.0.zip)
+(Size: 31.4 MB)  
+[SHA-256](https://www.trellisldp.org/downloads/trellis/trellis-0.8.0.zip.sha256): 337da4bcde3440275c20107a7c6edef5ce57644ad383b0c668f07116541a0894
 
-[trellis-0.7.3.tar](https://www.trellisldp.org/downloads/trellis/trellis-0.7.3.tar)
-(Size: 40.3 MB)  
-[SHA-256](https://www.trellisldp.org/downloads/trellis/trellis-0.7.3.tar.sha256): 45cba33f39e907daa1c1984dc82cea5736e70474e31fde1848d020f7044759eb
+[trellis-0.8.0.tar](https://www.trellisldp.org/downloads/trellis/trellis-0.8.0.tar)
+(Size: 35.2 MB)  
+[SHA-256](https://www.trellisldp.org/downloads/trellis/trellis-0.8.0.tar.sha256): 164784846dab2237b2de1faf894230bc9dcfb264cd9a5e9ff434dddd30aacc38
 
 ### Relational database packages
 
-[trellis-db-0.1.1.zip](https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db-0.1.1.zip)
-(Size: 40.8 MB)  
-[SHA-256](https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db-0.1.1.zip.sha256): a3a61209be50efc72b44777e0cccc9b1b2332770aa078fbdba9c2553ad4c7e40
+[trellis-db-0.2.0.zip](https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db-0.2.0.zip)
+(Size: 44.1 MB)  
+[SHA-256](https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db-0.2.0.zip.sha256): 73d39881c1ffbdb67c6656dbedf6c534ac232e81db0986333961061a54c98c8b
 
-[trellis-db-0.1.1.tar](https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db-0.1.1.tar)
-(Size: 45.6 MB)  
-[SHA-256](https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db-0.1.1.tar.sha256): 24f691e3ae44200a718746fe689756b73e9f8abf44df4cf7b468dd9c9f492d87
+[trellis-db-0.2.0.tar](https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db-0.2.0.tar)
+(Size: 48.7 MB)  
+[SHA-256](https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db-0.2.0.tar.sha256): adfdd15fbf18a4d0a42a8d7aa79252d67aeee0772fc5480519d63f50363886f1
 
 ---
 

@@ -91,7 +91,7 @@ manually, download the software as a Zip or Tar archive and follow the
 [SHA-256](https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db-0.2.0.zip.sha256): 73d39881c1ffbdb67c6656dbedf6c534ac232e81db0986333961061a54c98c8b
 
 [trellis-db-0.2.0.tar](https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db-0.2.0.tar)
-(Size: 48.7 MB)  
+(Size: 46.4 MB)  
 [SHA-256](https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db-0.2.0.tar.sha256): adfdd15fbf18a4d0a42a8d7aa79252d67aeee0772fc5480519d63f50363886f1
 
 ---

@@ -28,6 +28,8 @@ or, for the relational database version:
     $ docker pull trellisldp/trellis-ext-db
 
 All of the Trellis docker containers are available from [Docker Hub](https://hub.docker.com/u/trellisldp).
+Additional information about configuring a [dockerized Trellis
+server](https://github.com/trellis-ldp/trellis/wiki/Dockerized-Trellis) can be found on the project wiki.
 
 ---
 

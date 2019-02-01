@@ -45,3 +45,8 @@ its own [RDF vocabulary](https://www.trellisldp.org/ns/trellis), which is used i
 HTTP interactions with the server software. In addition, a [DOAP file](https://www.trellisldp.org/doap.ttl)
 describes the project itself.
 
+The Trellis docker containers are regularly checked against an [LDP Testsuite](https://github.com/trellis-ldp/ldp-testsuite).
+The results are posted for [basic](https://www.trellisldp.org/ldp/report/basic.html),
+[direct](https://www.trellisldp.org/ldp/report/direct.html) and
+[indirect](https://www.trellisldp.org/ldp/report/indirect.html) containers.
+

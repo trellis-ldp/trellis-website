@@ -115,6 +115,6 @@ manually, download the software as a Zip or Tar archive and follow the
 
 ## Next Steps
 
-After installing Trellis, please refer to the [configuration guide](https://github.com/trellis-ldp/trellis/wiki/Configuration-Guide)
+After installing Trellis, please refer to the [configuration guide](https://github.com/trellis-ldp/trellis/wiki/App-Configuration-Guide)
 for customizing the server.
 

@@ -46,7 +46,7 @@ HTTP interactions with the server software. In addition, a [DOAP file](https://w
 describes the project itself.
 
 The Trellis docker containers are regularly checked against an [LDP Testsuite](https://github.com/trellis-ldp/ldp-testsuite).
-The results are posted for [basic](https://www.trellisldp.org/ldp/report/basic.html),
-[direct](https://www.trellisldp.org/ldp/report/direct.html) and
-[indirect](https://www.trellisldp.org/ldp/report/indirect.html) containers.
+The results are posted for [basic](https://www.trellisldp.org/ldp/report/basic.html) ([ttl](https://www.trellisldp.org/ldp/report/basic.ttl) | [jsonld](https://www.trellisldp.org/ldp/report/basic.jsonld)),
+[direct](https://www.trellisldp.org/ldp/report/direct.html) ([ttl](https://www.trellisldp.org/ldp/report/direct.ttl) | [jsonld](https://www.trellisldp.org/ldp/report/direct.jsonld)) and
+[indirect](https://www.trellisldp.org/ldp/report/indirect.html) ([ttl](https://www.trellisldp.org/ldp/report/indirect.ttl) | [jsonld](https://www.trellisldp.org/ldp/report/indirect.jsonld)) containers.
 

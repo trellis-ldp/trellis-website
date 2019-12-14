@@ -10,7 +10,7 @@ Installing Trellis is simple and straight-forward.
 There are two flavors of Trellis available. One makes use of a [Triplestore](https://en.wikipedia.org/wiki/Triplestore), and another uses a relational database such as PostgreSQL or MySQL. The latest version if 0.9.1, released on December 13, 2019.
 
   * The current [triplestore-based version](https://github.com/trellis-ldp/trellis/releases/latest)
-  * The current [relational database version](https://github.com/trellis-ldp/trellis-ext-db/releases/latest)
+  * The current [relational database version](https://github.com/trellis-ldp/trellis-extensions/releases/latest)
 
 _Prerequisites_: before installing Trellis, be sure to have a Java 8 (or newer) runtime installed.
 
@@ -80,7 +80,7 @@ The relational database version can be installed with these commands:
     $ sudo gdebi trellis-db_0.9.1-1_all.deb
 
 Size: 45.9 MB  
-[SHA-256](https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db_0.9.1-1_all.deb.sha256): 4098c296305cd70893685b55d0c986cae115809b42c4d73a74b26a9bdb42b843
+[SHA-256](https://www.trellisldp.org/downloads/trellis-db/trellis-db_0.9.1-1_all.deb.sha256): 4098c296305cd70893685b55d0c986cae115809b42c4d73a74b26a9bdb42b843
 
 ---
 
@@ -105,11 +105,11 @@ manually, download the software as a Zip or Tar archive and follow the
 
 [trellis-db-0.9.1.zip](https://www.trellisldp.org/downloads/trellis-db/trellis-db-0.9.1.zip)
 (Size: 46.0 MB)  
-[SHA-256](https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db-0.9.1.zip.sha256): 0c9534014567f4189ecc6035dd9108041f352bc03621e4ac5505d94c3d9a92a2
+[SHA-256](https://www.trellisldp.org/downloads/trellis-db/trellis-db-0.9.1.zip.sha256): 0c9534014567f4189ecc6035dd9108041f352bc03621e4ac5505d94c3d9a92a2
 
-[trellis-db-0.9.1.tar](https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db-0.9.1.tar)
+[trellis-db-0.9.1.tar](https://www.trellisldp.org/downloads/trellis-db/trellis-db-0.9.1.tar)
 (Size: 50.8 MB)  
-[SHA-256](https://www.trellisldp.org/downloads/trellis-ext-db/trellis-db-0.9.1.tar.sha256): 0ac34c5bf890f39f8d4092f48760896d6406ebd1e98c6c30142a8f2bc9f5a362
+[SHA-256](https://www.trellisldp.org/downloads/trellis-db/trellis-db-0.9.1.tar.sha256): 0ac34c5bf890f39f8d4092f48760896d6406ebd1e98c6c30142a8f2bc9f5a362
 
 ---
 

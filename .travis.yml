@@ -1,14 +1,14 @@
 language: ruby
 rvm:
-  - 2.4.1
+  - 2.6.3
 
-script:
-    - bundle update --bundler
-    - bundle exec jekyll build && bundle exec htmlproofer ./_site
+script: bundle exec jekyll build && bundle exec htmlproofer ./_site
 
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+cache: bundler
 
 deploy:
   provider: s3

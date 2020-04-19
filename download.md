@@ -7,7 +7,7 @@ permalink: /download.html
 Trellis is an enterprise-ready Linked Data server that makes it possible to build and publish linked data applications on the Web.
 Installing Trellis is simple and straight-forward.
 
-There are two flavors of Trellis available. One makes use of a [Triplestore](https://en.wikipedia.org/wiki/Triplestore), and another uses a relational database such as PostgreSQL or MySQL. The latest version is 0.10.2, released on March 8, 2020.
+There are two flavors of Trellis available. One makes use of a [Triplestore](https://en.wikipedia.org/wiki/Triplestore), and another uses a relational database such as PostgreSQL or MySQL. The latest version is 0.11.1, released on April 18, 2020.
 
   * The current [triplestore-based version](https://github.com/trellis-ldp/trellis/releases/latest)
   * The current [relational database version](https://github.com/trellis-ldp/trellis-extensions/releases/latest)
@@ -42,23 +42,23 @@ manually, download the software as a Zip or Tar archive and follow the
 
 ### Triplestore-based packages
 
-[trellis-0.10.2.zip](https://www.trellisldp.org/downloads/trellis/trellis-0.10.2.zip)
-(Size: 39.0 MB)  
-[SHA-256](https://www.trellisldp.org/downloads/trellis/trellis-0.10.2.zip.sha256): 92bda069bcd7b1784ae1a6be3441c767a5caa849693adb3391771212094ee97f
+[trellis-0.11.1.zip](https://www.trellisldp.org/downloads/trellis/trellis-0.11.1.zip)
+(Size: 39.1 MB)  
+[SHA-256](https://www.trellisldp.org/downloads/trellis/trellis-0.11.1.zip.sha256): dca3f9610f51c4d17ff4a3b8ccad1652b90433c39d0929b349e69f57e05799f0
 
-[trellis-0.10.2.tar](https://www.trellisldp.org/downloads/trellis/trellis-0.10.2.tar)
-(Size: 43.3 MB)  
-[SHA-256](https://www.trellisldp.org/downloads/trellis/trellis-0.10.2.tar.sha256): 5351a0a0f6197ea8339f82de4639166331e7e8c1b6d6f0a82857618b733dab30
+[trellis-0.11.1.tar](https://www.trellisldp.org/downloads/trellis/trellis-0.11.1.tar)
+(Size: 43.4 MB)  
+[SHA-256](https://www.trellisldp.org/downloads/trellis/trellis-0.11.1.tar.sha256): 76874ed1f478bb8fd0c311d6d4b1b538becd7c4661f0bedc014aca81086c0f2e
 
 ### Relational database packages
 
-[trellis-db-0.10.2.zip](https://www.trellisldp.org/downloads/trellis-db/trellis-db-0.10.2.zip)
+[trellis-db-0.11.1.zip](https://www.trellisldp.org/downloads/trellis-db/trellis-db-0.11.1.zip)
 (Size: 46.7 MB)  
-[SHA-256](https://www.trellisldp.org/downloads/trellis-db/trellis-db-0.10.2.zip.sha256): 170a2750c51a2bc20e5f50d8c2104198021ec3f3849f176fa2a061392f49a6dd
+[SHA-256](https://www.trellisldp.org/downloads/trellis-db/trellis-db-0.11.1.zip.sha256): fa2fd1d4b0aa9476b089ba9d99be36dc05c34ed004ceb426a5e203b5979ad346
 
-[trellis-db-0.10.2.tar](https://www.trellisldp.org/downloads/trellis-db/trellis-db-0.10.2.tar)
-(Size: 51.6 MB)  
-[SHA-256](https://www.trellisldp.org/downloads/trellis-db/trellis-db-0.10.2.tar.sha256): 9c603d6c4386b0731440250afb88cb8add8adb77bf760281856ab66bc4d21ac1
+[trellis-db-0.11.1.tar](https://www.trellisldp.org/downloads/trellis-db/trellis-db-0.11.1.tar)
+(Size: 51.7 MB)  
+[SHA-256](https://www.trellisldp.org/downloads/trellis-db/trellis-db-0.11.1.tar.sha256): 9b05eddfed8979d3d3a435c29c7242b94b74d232c07e89f4adae1fba7ce6a856
 
 ---
 

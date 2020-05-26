@@ -42,7 +42,7 @@ tested on Windows, Mac OS and generic Linux machines. To install Trellis
 manually, download the software as a Zip or Tar archive and follow the
 [manual installation instructions](https://github.com/trellis-ldp/trellis/wiki/Manual-Installation).
 
-### Triplestore-based packages
+### Downloads
 
 [trellis-0.12.0.zip](https://www.trellisldp.org/downloads/trellis/trellis-0.12.0.zip)
 (Size: 46.7 MB)  

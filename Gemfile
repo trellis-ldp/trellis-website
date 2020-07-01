@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.1.0"
+gem "jekyll", "~> 4.1.1"
 gem "minima", "~> 2.5"
 gem "html-proofer", "~> 3.15"
 

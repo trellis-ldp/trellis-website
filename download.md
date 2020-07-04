@@ -5,7 +5,7 @@ permalink: /download.html
 ---
 
 Trellis is an enterprise-ready Linked Data server that makes it possible to build and publish linked data applications on the Web.
-Installing Trellis is simple and straight-forward. The latest version is 0.12.2, released on June 13, 2020.
+Installing Trellis is simple and straight-forward. The latest version is 0.13.0, released on June 30, 2020.
 
   * Source code for the [current version](https://github.com/trellis-ldp/trellis/releases/latest)
 
@@ -44,13 +44,13 @@ manually, download the software as a Zip or Tar archive and follow the
 
 ### Downloads
 
-[trellis-0.12.2.zip](https://www.trellisldp.org/downloads/trellis/trellis-0.12.2.zip)
-(Size: 46.8 MB)  
-[SHA-256](https://www.trellisldp.org/downloads/trellis/trellis-0.12.2.zip.sha256): 6dbebc256fbef97cb267994e21deead930a9fa9c9dfd2940eed0b48f95e78c96
+[trellis-0.13.0.zip](https://www.trellisldp.org/downloads/trellis/trellis-0.13.0.zip)
+(Size: 46.9 MB)  
+[SHA-256](https://www.trellisldp.org/downloads/trellis/trellis-0.13.0.zip.sha256): f0904b9b2fd6b22873e95aa5e35dbecf10d617b7fea787a476fd5399fb3d2f14
 
-[trellis-0.12.2.tar](https://www.trellisldp.org/downloads/trellis/trellis-0.12.2.tar)
+[trellis-0.13.0.tar](https://www.trellisldp.org/downloads/trellis/trellis-0.13.0.tar)
 (Size: 51.8 MB)  
-[SHA-256](https://www.trellisldp.org/downloads/trellis/trellis-0.12.2.tar.sha256): 0bb0cdfaaf78094b33235d83aa3ca272dc540866e1c32712bc2ad0fd448c019f
+[SHA-256](https://www.trellisldp.org/downloads/trellis/trellis-0.13.0.tar.sha256): dc1d4d58afdd84cf55199940994f28f63d6f9d41a15ff3deaa5e41f4a5863873
 
 ---
 

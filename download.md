@@ -5,7 +5,7 @@ permalink: /download.html
 ---
 
 Trellis is an enterprise-ready Linked Data server that makes it possible to build and publish linked data applications on the Web.
-Installing Trellis is simple and straight-forward. The latest version is 0.13.1, released on July 7, 2020.
+Installing Trellis is simple and straight-forward. The latest version is 0.14.0, released on July 28, 2020.
 
   * Source code for the [current version](https://github.com/trellis-ldp/trellis/releases/latest)
 
@@ -44,9 +44,9 @@ manually, download the software as a Zip or Tar archive and follow the
 
 ### Downloads
 
-[trellis-0.13.1.zip](https://dl.cloudsmith.io/public/trellisldp/release/raw/names/Trellis/versions/0.13.1/trellis-0.13.1.zip)
-(Size: 46.9 MB)  
-SHA-256: ad92484d232c8eddf0b2c075e026c8d8c5b5da10bf1977b0a5c4a2b4fe0c2f2d
+[trellis-0.14.0.zip](https://dl.cloudsmith.io/public/trellisldp/release/raw/names/Trellis/versions/0.14.0/trellis-0.14.0.zip)
+(Size: 47.0 MB)  
+SHA-256: d1e8de0ef92c91707b27fb0fdbf183dc3c93688609fc07c495c4dba88fd7c00b
 
 ---
 

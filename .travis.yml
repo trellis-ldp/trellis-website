@@ -2,6 +2,10 @@ language: ruby
 rvm:
   - 2.6.3
 
+branches:
+  only:
+    - master
+
 script: bundle exec jekyll build && bundle exec htmlproofer ./_site
 
 env:

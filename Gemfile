@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.1.1"
 gem "minima", "~> 2.5"
-gem "html-proofer", "~> 3.15"
+gem "html-proofer", "~> 3.16"
 
 # If you have any plugins, put them here
 group :jekyll_plugins do

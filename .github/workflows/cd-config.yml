@@ -1,0 +1,42 @@
+name: GitHub CD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    name: Ruby 2.6 environment
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.6'
+
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Build website
+        run: bundle exec jekyll build
+
+      - name: Test website
+        run: bundle exec htmlproofer --url-ignore https://www.twitter.com/trellisldp,https://twitter.com/trellisldp ./_site
+
+      - name: Sync to AWS S3
+        uses: jakejarvis/s3-sync-action@v0.5.1
+        with:
+          args: --acl public-read
+        env:
+            AWS_S3_BUCKET: ${{ secrets.AWS_DOCS_BUCKET }}
+            AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
+            AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_KEY }}
+            AWS_REGION: ${{ secrets.AWS_REGION }}
+            SOURCE_DIR: "_site"
+            DEST_DIR: ""
+

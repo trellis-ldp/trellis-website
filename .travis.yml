@@ -6,7 +6,7 @@ branches:
   only:
     - main
 
-script: bundle exec jekyll build && bundle exec htmlproofer ./_site
+script: bundle exec jekyll build && bundle exec htmlproofer --url-ignore https://www.twitter.com/trellisldp,https://twitter.com/trellisldp ./_site
 
 env:
   global:

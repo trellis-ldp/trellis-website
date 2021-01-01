@@ -20,9 +20,12 @@ jobs:
           ruby-version: '2.6'
 
       - name: Install dependencies
-        run: bundle exec jekyll build
+        run: bundle install
 
       - name: Build website
+        run: bundle exec jekyll build
+
+      - name: Test website
         run: bundle exec htmlproofer --url-ignore https://www.twitter.com/trellisldp,https://twitter.com/trellisldp ./_site
 
       - name: Sync to AWS S3

@@ -9,8 +9,6 @@ Installing Trellis is simple and straight-forward. The latest version is 0.16.3,
 
   * Source code for the [current version](https://github.com/trellis-ldp/trellis/releases/latest)
 
-_Prerequisites_: before installing Trellis, be sure to have a Java 11 (or newer) runtime installed.
-
 ---
 
 ## Docker containers

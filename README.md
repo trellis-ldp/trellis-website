@@ -1,6 +1,6 @@
 # TrellisLDP.org website
 
-A website for [trellisldp.org](https://www.trellisldp.org), using [Jekyll](https://jekyllrb.com/docs/home/) as a static site generator.
+A website for [www.trellisldp.org](https://www.trellisldp.org), using [Jekyll](https://jekyllrb.com/docs/home/) as a static site generator.
 
 While developing the site, this command is useful:
 

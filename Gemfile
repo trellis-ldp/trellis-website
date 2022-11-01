@@ -6,7 +6,7 @@ gem "html-proofer", "~> 3.19"
 
 # If you have any plugins, put them here
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.16"
+  gem "jekyll-feed", "~> 0.17"
   gem "jekyll-sitemap", "~> 1.4"
 end
 

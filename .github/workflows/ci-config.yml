@@ -12,18 +12,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    name: Ruby 2.6 environment
+    name: Ruby 2.7 environment
 
     steps:
       - uses: actions/checkout@v3
 
       - name: Setup Ruby
-        uses: actions/setup-ruby@v1
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.6'
-
-      - name: Install dependencies
-        run: bundle install
+          ruby-version: '2.7'
+          bundler-cache: true
 
       - name: Build website
         run: bundle exec jekyll build

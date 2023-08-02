@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    name: Ruby 2.7 environment
+    name: Ruby 3.0 environment
 
     steps:
       - uses: actions/checkout@v3
@@ -17,7 +17,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7'
+          ruby-version: '3.0'
           bundler-cache: true
 
       - name: Build website
